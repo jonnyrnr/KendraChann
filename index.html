@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Enigma Channel | Psychic Services & Creator Tools</title>
+    <meta name="description" content="Official site for The Enigma Channel. Kendra Collier offers psychic services, tarot readings, and a unique AI-powered content creation toolkit for fellow mystics and creators." />
+    <meta name="keywords" content="psychic, tarot, medium, spiritual, art, content creator, youtube strategy, AI tools" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://theenigmachannel.com/">
+    <meta property="og:title" content="The Enigma Channel | Psychic Services & Creator Tools">
+    <meta property="og:description" content="Connect with your spiritual side. Offering tarot readings, psychic consultations, and a unique AI toolkit for creators.">
+    <!-- <meta property="og:image" content="https://theenigmachannel.com/og-image.jpg"> -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://theenigmachannel.com/">
+    <meta property="twitter:title" content="The Enigma Channel | Psychic Services & Creator Tools">
+    <meta property="twitter:description" content="Connect with your spiritual side. Offering tarot readings, psychic consultations, and a unique AI toolkit for creators.">
+    <!-- <meta property="twitter:image" content="https://theenigmachannel.com/twitter-image.jpg"> -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" as="style">
+
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #2d262e; /* Warmer dark tone */
+        overflow-x: hidden;
+      }
+      .animated-gradient {
+        background: linear-gradient(135deg, #4a3a47, #6b5b6e, #a88a8a, #3d3242);
+        background-size: 400% 400%;
+        animation: gradient-animation 35s ease infinite;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      @keyframes gradient-animation {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+      }
+      h1, h2, h3, .font-fancy {
+        font-family: 'Cinzel', serif;
+      }
+      /* Custom scrollbar for a more refined look */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #2d262e; /* Warmer dark tone */
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #4c1d95; /* purple-800 */
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #ec4899; /* pink-500 */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.20.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^11.3.19"
+  }
+}
+</script>
+</head>
+  <body>
+    <div class="animated-gradient"></div>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
